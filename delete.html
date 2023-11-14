@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete page</title>
+</head>
+<body>
+
+    <form method="POST" action="http://localhost:3000/delete">
+        <p>이름으로 학생 하나를 지운다.</p>
+        <label for="name">이름 :</label><input type="text" name="name_todelete"/>
+        <button>Delete_data</button>
+
+        <form method="GET" action="http://localhost:3000/">
+            <button>return_to_main</button>
+        </form>
+    </form>
+    
+</body>
+</html>

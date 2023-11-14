@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+</head>
+<body>
+    <h1>안녕하세요!</h1> <!-- 타이틀 태그 -->
+    <p>익숙한 그 예제</p> <!-- 본문 태그 -->
+
+    <form method="POST" action="http://localhost:3000/create">
+        <label for="name">이름 :</label><input type="text" name="student_name"/>
+        <label for="id">학번 :</label><input type="number" name="student_id"/>
+        <label for="height">키 :</label><input type="number" name="student_height"/>
+        <label for="birth">생일 :</label><input type="date" name="student_bday"/>
+        <label for="self_intro">자기소개 :</label><input type="text" name="student_intro"/>
+
+        <button>Create_data</button>
+    </form>
+
+    <form method="GET" action="http://localhost:3000/deletemain">
+        <button>go_delete</button>
+    </form>
+
+</body>
+</html>
